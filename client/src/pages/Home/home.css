@@ -1,0 +1,155 @@
+.home-container {
+  font-family: sans-serif;
+  margin-top: 20px;
+  height: 300px;
+  color: white;
+  padding-left: 210px;
+}
+
+.home-content h2 {
+
+  font-weight: 500;
+  color: #343d68;
+  padding: 5px;
+  padding-top: 60px;
+
+  /* margin-left: 150px; */
+}
+.home-content h1 {
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  /* color: #e0b50f; */
+  color: #4e45d5;
+  padding: 5px;
+  
+  /* margin-left: 150px; */
+}
+
+.home-buttons {
+font-family: sans-serif;
+  /* margin-left: 150px; */
+  margin-top: 50px;
+  
+}
+
+.home-buttons .btn-hire {
+  font-size: large;
+  font-family: sans-serif;
+  background-color: #3b8ff3;
+  color: white;
+  width: 130px;
+}
+.home-buttons .btn-hire:hover {
+  background-color: #3b8ff3;
+  color: white;
+  width: 200px;
+  transition: 1s;
+}
+
+.home-buttons .btn-cv {
+  font-size: large;
+  background-color: #e84949;
+  color: white;
+  margin-left: 40px;
+}
+
+.home-buttons .btn-cv:hover {
+  opacity: 80%;
+  transition: 1s;
+}
+
+.theme-btn {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #1e1e1e;
+  margin-top: 15px;
+  text-align: center;
+  position: fixed;
+  right: 50px;
+  cursor: pointer;
+border-radius: 50%;
+  z-index: 1;
+  color: white;
+}
+
+
+/* Drak mode  */
+
+
+#dark .home-content h2 {
+  color: rgb(230, 218, 218);
+  font-family: sans-serif;
+  font-weight: 500;
+  /* color: #e0b50f; */
+
+}
+ #dark .home-content h1 {
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-weight: 500;
+  /* color: #e0b50f; */
+  color: rgb(230, 218, 218);
+  padding: 5px;
+  
+  /* margin-left: 150px; */
+}
+
+
+/* =============== */
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .home-container h2 {
+    
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+  .home-container h1 {
+    font-size: 24px;
+  }
+  .theme-btn {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: #1e1e1e;
+    margin-top: 10px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    cursor: pointer;
+  border-radius: 50%;
+    z-index: 1;
+    color: white;
+  }
+  
+
+}
+
+
+/* Dark media */
+@media (max-width: 600px) {
+  #dark .home-container {
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+  }
+  #dark .home-container h2 {
+    
+    font-size: 24px;
+    font-family: sans-serif;
+  }
+ #dark .home-container h1 {
+    font-size: 24px;
+  }
+}

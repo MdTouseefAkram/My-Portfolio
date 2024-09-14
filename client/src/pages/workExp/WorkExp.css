@@ -1,0 +1,94 @@
+.work {
+  background-color: rgba(128, 128, 128, 0.101);
+  font-family: sans-serif;
+  padding: 100px 0px;
+
+  margin: 50px 0px;
+  margin-left: 120px;
+}
+
+.work-exp {
+  padding: 60px 0px;
+}
+
+.work-exp h2 {
+  font-weight: bold;
+  color: #138781;
+}
+.work-exp p {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  color: gray ;
+ font-weight: 500;
+  text-align: justify;
+}
+
+.work-exp hr {
+  color: #138781;
+
+  width: 400px;
+  margin: 20px auto;
+}
+
+.work-exp .vertical-timeline-element-title {
+    margin-bottom: 25px;
+  color: #138781;
+  font-weight: bold;
+}
+
+
+
+.work-exp .vertical-timeline-element-subtitle {
+  color: rgba(112, 106, 106, 0.985);
+}
+
+/* ===== DARK MODE ========== */
+
+#dark .work-exp p {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  color: gray ;
+ font-weight: 500;
+  text-align: justify;
+}
+
+#dark .work {
+  background-color: rgba(0, 0, 0, 0.15);
+
+  font-family: sans-serif;
+  padding: 100px 0px;
+
+  margin: 50px 0px;
+  margin-left: 120px;
+}
+
+#dark .work-exp .heading {
+  color: white;
+}
+
+/* =================== */
+
+@media (max-width: 600px) {
+  .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+  .work hr {
+    width: 280px;
+  }
+}
+
+/* dark */
+@media (max-width: 600px) {
+ #dark .work {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+  }
+ #dark .work hr {
+    width: 280px;
+  }
+}
