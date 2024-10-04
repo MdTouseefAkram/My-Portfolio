@@ -29,9 +29,9 @@ const Education = () => {
             iconStyle={{ background: "#138781", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">B.Tech in CSE </h3>
+            <h3 className="vertical-timeline-element-title">B.Tech in Computer Science & Engineering </h3>
             <h4 className="vertical-timeline-element-subtitle">
-            Ramgarh Engineering College, Ramgarh
+            Ramgarh Engineering College
             </h4>
             <p>
             CGPA: 8.09 
